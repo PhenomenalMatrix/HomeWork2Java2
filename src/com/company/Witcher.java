@@ -21,7 +21,7 @@ public final class Witcher extends  SeriesWitcher {
     @Override
     public void print() {
         super.print();
-        System.out.println("|| Armor status (1/10): " + getArmor() + " ||");
+        System.out.println("|| Armor status (1/10): " + getArmor() );
         System.out.println("______________________________________________");
     }
 }

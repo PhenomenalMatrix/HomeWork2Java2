@@ -19,7 +19,7 @@ public class Main {
                 print = new Witcher("Geralt", 43, "Mercenary");
                 break;
             case "Yennifer":
-                print = new Witch("Yennifer",80, "Advisor to the Emperor");
+                print = new Witch("Yennifer",80, "Advisor to the Emperor", "Fire");
                 break;
             case "Ciri" :
                 print = new ImperatorChild("Ciri", 16, "Beige", "Aggressive");

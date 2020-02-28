@@ -25,6 +25,6 @@ public class SeriesWitcher implements Printable {
 
     @Override
     public void print() {
-        System.out.println( "|| Name: " + " " + getName() + " " + "|| Age: " + getAge() + " " + "|| Role: " + getRole() );
+        System.out.println( "|| Name: " + " " + getName()+"\n" + "|| Age: " + getAge()+"\n" + "|| Role: " + getRole() );
     }
 }

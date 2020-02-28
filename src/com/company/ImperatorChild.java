@@ -20,7 +20,7 @@ public class ImperatorChild extends SeriesWitcher {
     @Override
     public void print() {
         super.print();
-        System.out.println("|| Status: " + getStatus() + " ||");
+        System.out.println("|| Status: " + getStatus() );
         System.out.println("______________________________________________");
     }
 }
